@@ -34,35 +34,45 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content:center;
-  height: 400px;
+  height: fit-content
 }
 
 .user img{
-  margin: 20px auto ;
+  margin: 25px auto ;
   height: 60px;
 }
-.profile p{
+.user{
+  display: flex;
+  flex-direction: column;
+}
+
+.name{
+  /* margin: auto 60px; */
+  text-align: center;
   font-weight: 600;
   font-size: 20px;
   color: #000000;
   line-height: 28px;
 }
 .role{
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   color:#575656;
-
+  font-size: 15px;
+  font-weight: 400;
 }
 .discription{
-  margin: auto 20px;
+  margin: 30px 20px;
   color: #3a3939;
-  margin-bottom: 30px;
+  text-align: center;
+
+  /* margin-bottom: 30px; */
 }
 .container button{
   border: none;
   border-radius: 4px;
   width: 90%;
   padding: 10px;
-  /* margin-bottom: 20px; */
+  margin-top: 20px;
   background-color: #4338ca	;
   color: white;
   cursor: pointer;
@@ -73,7 +83,7 @@ body {
 .socials{
   display: flex;
   gap: 28px;
-  margin: 30px auto;
+  margin: 36px auto;
   color: #4338ca;
 }
 
